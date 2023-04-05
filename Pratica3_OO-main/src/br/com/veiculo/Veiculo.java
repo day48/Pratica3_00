@@ -1,0 +1,44 @@
+package br.com.veiculo;
+
+import java.awt.*;
+
+public class Veiculo {
+    private String placa;
+    private int ano;
+
+    public Veiculo(String placa) {
+        this.placa = placa;
+    }
+
+    public Veiculo(int ano) {
+        this.ano = ano;
+    }
+
+    public String getPlaca() {
+        return placa;
+    }
+
+    public int getAno() {
+        return ano;
+    }
+
+    public void setPlaca(String placa) {
+        this.placa = placa;
+    }
+
+    public void setAno(int ano) {
+        this.ano = ano;
+    }
+    public Veiculo (){
+
+    }
+    public void exibirDados(){
+
+
+    }
+
+
+
+
+
+}
